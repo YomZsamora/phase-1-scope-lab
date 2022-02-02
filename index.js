@@ -15,3 +15,11 @@ function setBestCustomer() {
 function overwriteBestCustomer(newBestCustomer) {
 	bestCustomer = newBestCustomer;
 }
+
+// Declare a constant in global scope
+const leastFavoriteCustomer = 'Thanos';
+
+// Function that attempts to change a constant
+function changeLeastFavoriteCustomer() {
+	leastFavoriteCustomer = 'Madocho';   
+}
