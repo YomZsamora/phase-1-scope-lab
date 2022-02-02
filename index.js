@@ -10,3 +10,8 @@ function upperCaseCustomerName() {
 function setBestCustomer() {
 	bestCustomer = 'not bob';
 }
+
+// Function called overwriteBestCustomer() that changes that bestCustomer global variable declared in setBestCustomer()
+function overwriteBestCustomer(newBestCustomer) {
+	bestCustomer = newBestCustomer;
+}
