@@ -1,3 +1,4 @@
+
 // Declared global scope variable
 var customerName = 'bob';
 
